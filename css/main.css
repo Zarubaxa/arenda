@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../fonts/Calibri-Bold.woff2") format("woff2"), url("../fonts/Calibri-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibri";
+  src: url("../fonts/Calibri.woff2") format("woff2"), url("../fonts/Calibri.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: Calibri, sans-serif;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1760px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
